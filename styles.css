@@ -1,0 +1,11 @@
+#tickets-container {
+    width: 400px;
+    height: 200px;
+}
+
+
+.ticket-box {
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+}

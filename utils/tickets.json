@@ -3,39 +3,42 @@
 	"direccion": "Calle Falsa 123, 28033 Madrid",
 	"entradas": [
 		{
+			"id": 1,
 			"pelicula": "Cómo entrenar a tu dragón",
 			"venta": {
 				"hora": "13:45",
-				"fecha": "17-06-2025",
+				"fecha": "2025-06-17",
 				"precio": "9,10€"
 			},
-			"fecha": "19-06-2025",
+			"fecha": "2025-06-19",
 			"sesion": "17:00",
 			"sala": 2,
 			"fila": 3,
 			"butaca": 8
 		},
 		{
+			"id": 2,
 			"pelicula": "Deadpool y Lobezno",
 			"venta": {
 				"hora": "20:37",
-				"fecha": "19-07-2024",
+				"fecha": "2024-07-19",
 				"precio": "9,10€"
 			},
-			"fecha": "26-07-2024",
+			"fecha": "2024-07-26",
 			"sesion": "20:00",
 			"sala": 6,
 			"fila": 13,
 			"butaca": 22
 		},
-        {
+		{
+			"id": 3,
 			"pelicula": "Avatar: Fuego y Ceniza",
 			"venta": {
 				"hora": "13:45",
-				"fecha": "15-12-2025",
+				"fecha": "2025-12-15",
 				"precio": "9,10€"
 			},
-			"fecha": "22-12-2025",
+			"fecha": "2025-12-22",
 			"sesion": "19:30",
 			"sala": 4,
 			"fila": 9,

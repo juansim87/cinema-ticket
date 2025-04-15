@@ -1,2 +1,15 @@
-const ticketContainer = document.getElementById("ticket.container");
+const ticketContainer = document.getElementById("tickets-container");
 
+const ticketBox = document.createElement("div");
+ticketBox.classList.add("ticket-box");
+
+ticketContainer.appendChild(ticketBox);
+
+const ticketRender = () => {
+	fetch("./utils/tickets.json")
+		.then((res) => res.json())
+		.then((data) => console.log(data))
+		.catch((error) => console.log(error, "Error durante la petición de datos"));
+};
+
+ticketRender();
