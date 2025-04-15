@@ -1,0 +1,15 @@
+{
+    "empresa": "Cinesa",
+"direccion" : "Calle Falsa 123, 28033 Madrid",
+"pelicula" : "Cómo entrenar a tu dragón",
+"venta" : {
+    "hora" : "13:45",
+    "fecha" : "18-04-2025",
+    "precio" : "9,10€"
+},
+"fecha" :"19-04-2025",
+"sesion" : "17:00",
+"sala" : 2,
+"fila" : 3,
+"butaca" : 8
+}
