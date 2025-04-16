@@ -23,13 +23,13 @@ const ticketRender = () => {
 				title.textContent = ticket.title;
 
 				const session = document.createElement("div");
-				session.classList.add("film");
+				session.classList.add("session");
 
 				const date = document.createElement("div");
 				date.classList.add("date");
 
 				const day = document.createElement("p");
-				day.textContent = "Fecha: " + ticket.day;
+				day.textContent = ticket.day;
 
 				const time = document.createElement("p");
 				time.textContent = "Sesión: " + ticket.session;
@@ -46,7 +46,7 @@ const ticketRender = () => {
 				row.textContent = "F: " + ticket.row;
 
 				const seatNumber = document.createElement("p");
-				seatNumber.textContent = "Fecha: " + ticket.seat;
+				seatNumber.textContent = "B: " + ticket.seat;
 
 				seat.append(theater, row, seatNumber);
 
@@ -82,7 +82,6 @@ const ticketRender = () => {
 
 				location.append(companyName, address);
 
-
 				const qrCode = document.createElement("div");
 				qrCode.classList.add("qr-code");
 
@@ -91,9 +90,7 @@ const ticketRender = () => {
 				codeImg.alt = "Código QR para entrada de cine";
 				qrCode.append(codeImg);
 
-
 				company.append(location, qrCode)
-
 
 				ticketBox.append(sale, company);
 
