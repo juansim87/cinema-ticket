@@ -1,6 +1,8 @@
 * {
 	margin: 0;
 	padding: 0;
+    /* box-sizing: border-box;
+    font-family: "Poppins", sans-serif; */
 }
 
 #tickets-container {
@@ -36,7 +38,7 @@
 	display: flex;
 	flex-direction: column;
     /* width: 100%; */
-	padding: 8px;
+	padding-top: 8px;
 	gap: 8px;
 	/* border: 1px solid #000; */
 }
@@ -52,19 +54,23 @@
 .session {
 	display: flex;
 	flex-direction: column;
+    align-items: flex-start;
 	gap: 8px;
 	/* border: 1px solid #000; */
 }
 
 .date {
 	display: flex;
-	justify-content: space-around;
+    width:  100%;
+    justify-content: space-between
 	/* border: 1px solid #000; */
 }
 
 .seat {
 	display: flex;
-	justify-content: space-around;
+    width:100%;
+    align-items: flex-start;
+    gap: 12px;
 	/* border: 1px solid #000; */
 }
 
@@ -83,12 +89,13 @@
 
 .company-info {
 	display: flex;
-    height:100%; 
 	flex-direction: column;
     justify-content: space-between;
-    align-items:  center;
-	/* border: 1px solid #000; */
-	flex: 1;
+    align-items: center;
+    width: 100%;
+    height:100%;
+    flex: 1;
+	/* border: 1px solid #000; */	
 }
 
 .location {
@@ -96,18 +103,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    padding-left: 16px;
 }
 
 .qr-code {
     width:100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-	flex: 1;
+	
 }
 
 .qr-code img {
-    display: flex;
-    
+    display: flex;    
 	width: 80%;
+    height: 80%;
 }
