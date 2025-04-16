@@ -1,8 +1,8 @@
 * {
 	margin: 0;
 	padding: 0;
-    /* box-sizing: border-box;
-    font-family: "Poppins", sans-serif; */
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 #tickets-container {
@@ -29,8 +29,7 @@
 	justify-content: space-between;
 	width: 100%;
 	height: 100%;
-	padding: 8px;
-	/* border: 1px solid #000; */
+	border-right: 1px dashed #000;
 	flex: 3;
 }
 
@@ -38,17 +37,16 @@
 	display: flex;
 	flex-direction: column;
     /* width: 100%; */
-	padding-top: 8px;
 	gap: 8px;
 	/* border: 1px solid #000; */
 }
 
 .film h2 {
-	font-size: 34px;
+	font-size: 28px;
 }
 
 .film p {
-	font-size: 28px;
+	font-size: 24px;
 }
 
 .session {
@@ -76,15 +74,16 @@
 
 .sale-info {
 	display: flex;
-    flex-direction: column;
-	justify-content: space-around;
+    /* flex-direction: column; */
+	justify-content: flex-start;
     align-items: flex-start;
     width:100%;
+    gap: 20px;
 	/* border: 1px solid #000; */
 }
 
 .sale-info p {
-    font-size: 20px;
+    font-size: 12px;
 }
 
 .company-info {
