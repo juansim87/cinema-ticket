@@ -61,4 +61,5 @@ El 100% del código está creado y desarrollado desde 0 por Juan Simón Abad
 ---
 
 ## Notas Adicionales / FAQ
-- **Se tienen en cuenta buenas prácticas, código limpio y planteamiento previo del código antes de desarrollarlo**
+- En la estructuración de carpetas se añade una con archivos CSS dispuestos para formatos responsivos, aunque el proyecto no lo precisa al mostrar diseños sencillos de ticket-cards con poca información.
+- Añado un archivo prettierrc para mejorar la organización de código.
