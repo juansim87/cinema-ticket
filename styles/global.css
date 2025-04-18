@@ -97,21 +97,21 @@ a {
 	font-size: 24px;
 }
 
-.session {
+.film-session {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	gap: var(--simple-gap);
 }
 
-.date {
+.session-date {
 	display: flex;
 	justify-content: flex-start;
-	gap: 20px;
 	width: 100%;
+	gap: 20px;
 }
 
-.seat {
+.session-seat {
 	display: flex;
 	align-items: flex-start;
 	width: 100%;

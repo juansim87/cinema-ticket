@@ -23,10 +23,10 @@ const ticketRender = () => {
 				title.textContent = ticket.title;
 
 				const session = document.createElement("div");
-				session.classList.add("session");
+				session.classList.add("film-session");
 
 				const date = document.createElement("div");
-				date.classList.add("date");
+				date.classList.add("session-date");
 
 				const day = document.createElement("p");
 				day.textContent = ticket.day;
@@ -37,7 +37,7 @@ const ticketRender = () => {
 				date.append(day, time);
 
 				const seat = document.createElement("div");
-				seat.classList.add("seat");
+				seat.classList.add("session-seat");
 
 				const theater = document.createElement("p");
 				theater.textContent = "Sala: " + ticket.theater;
@@ -61,7 +61,7 @@ const ticketRender = () => {
 				price.textContent = "PVP: " + ticket.sale.price + " + 0.0 (IVA incl.)";
 
 				const saleDate = document.createElement("p");
-				saleDate.textContent = "Fecha de venta: " + ticket.sale.day;
+				saleDate.textContent = "Fecha de venta: " + ticket.sale.day +  " | " + ticket.sale.time;
 
 				saleInfo.append(price, saleDate);
 
